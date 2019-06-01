@@ -15,6 +15,8 @@ setup(name='iptoolsjj',
       url='https://github.com/jarekj9/iptoolsjj',
       author='Jaroslaw Jankun',
       author_email='jaroslaw.jankun@gmail.com',
-      license='MIT',
       packages=['iptoolsjj'],
+      classifiers=[
+          'License :: OSI Approved :: MIT License'
+      ]
       zip_safe=False)
